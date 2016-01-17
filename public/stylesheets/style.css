@@ -67,11 +67,15 @@ nav .horizontalLine {
   margin: 0 10%;
 }
 
-img {
+img.mainImage {
   width: 80%;
   margin: 0 10%;
 }
 
 .body a {
   font-size: 16px;
+}
+
+.event img {
+  width: 40%;
 }

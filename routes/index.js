@@ -7,15 +7,15 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'about' });
+  res.render('about', { title: 'about' });
 });
 
 router.get('/blog', function(req, res, next) {
-  res.render('index', { title: 'blog' });
+  res.render('blog', { title: 'blog' });
 });
 
 router.get('/upcoming', function(req, res, next) {
-  res.render('index', { title: 'upcoming' });
+  res.render('upcoming', { title: 'upcoming' });
 });
 
 module.exports = router;
