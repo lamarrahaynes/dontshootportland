@@ -8,15 +8,32 @@ To get the contents of this repository on your computer run these commands
 git clone https://github.com/lamarrahaynes/dontshootportland
 cd dontshootportland
 ```
+This will copy the repository to your computer and then move you into the project's root directory.  You can update your version of the project with what is on the web by typing
+```
+git pull
+```
+at any later time.
 
-This will copy the repository to your computer and then move you into the project's root directory.  You can now use node to view the website.  Node has a handy program called the node package manager (npm).  Run these commands to get started.
-
+You can now use node to view the website.  Node has a handy program called the node package manager (npm).  There are three commands that use npm that you will need to use.  Each time you pull the latest version of the project you should check for new project dependencies.  To do this run
 ```
 npm install
-npm start
 ```
 
-These commands will install all of the project dependencies in your local project directory and deploy the site on your local host.  To view the website, just navigate to localhost:3000 in your browser.
+Each time you update the project files, you will need to run
+
+```
+npm run build
+```
+to build the site. Then you can run
+
+```
+npm start
+```
+to view the latest build.  Running this last command will cause the website to appear at localhost:3000 in your browser.
+
+#Website specifications
+
+These notes reflect the latest vision for the structure of the site and the resources that are still needed.
 
 ## All page layout
 
