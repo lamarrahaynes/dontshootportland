@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "build": "npm install && node node_modules/webpack/bin/webpack.js"
+    "build": "node node_modules/webpack/bin/webpack.js"
   },
   "dependencies": {
     "babel": "^6.3.26",
