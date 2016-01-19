@@ -4,7 +4,7 @@ module.exports = {
   context: __dirname + '/',
   entry: [
     'babel-polyfill',
-    './src/js/app.js'
+    './src/js/root.js'
   ],
   output: {
     path: './public/js/',
