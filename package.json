@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/babel/bin/babel-node.js server.js",
-    "build": "node node_modules/webpack/bin/webpack.js"
+    "start": "./node_modules/babel/bin/babel-node.js server.js"
   },
   "dependencies": {
     "babel-runtime": "^6.3.19",

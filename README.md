@@ -19,12 +19,7 @@ You can now use node to view the website.  Node has a handy program called the n
 npm install
 ```
 
-Each time you update the project files, you will need to run
-
-```
-npm run build
-```
-to build the site. Then you can run
+Then you can run
 
 ```
 npm start
