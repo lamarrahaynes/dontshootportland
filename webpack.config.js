@@ -7,9 +7,9 @@ module.exports = {
     './src/js/root.js'
   ],
   output: {
-    path: './public/js/',
-    publicpath: '/js/',
-    filename: 'index.js'
+    path: __dirname + '/public/',
+    filename: 'js/[name].js',
+    publicPath: '/'
   },
   module: {
     loaders: [

@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
-import {App, Home, About} from './app';
-// , Blog, UpcomingEvents
+import {App, Home, About, Blog, UpcomingEvents} from './app';
 
 class Root extends Component {
   render() {
@@ -12,11 +11,11 @@ class Root extends Component {
         <Route path="/" component={App}>
           <IndexRoute component={Home}/>
           <Route path='about' component={About}/>
+          <Route path='blog' component={Blog}/>
+          <Route path='upcoming_events' component={UpcomingEvents}/>
         </Route>
       </Router>
     );
-          // <Route path='blog' component={Blog}/>
-          // <Route path='upcoming_events' component={UpcomingEvents}/>
   }
 }
 
