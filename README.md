@@ -14,7 +14,7 @@ git pull
 ```
 at any later time.
 
-You can now use node to view the website.  Node has a handy program called the node package manager (npm).  There are three commands that use npm that you will need to use.  Each time you pull the latest version of the project you should check for new project dependencies.  To do this run
+You can now use node to view the website.  Node has a handy program called the node package manager (npm).  There are some commands that use npm that you will need to use.  Each time you pull the latest version of the project you should check for new project dependencies.  To do this run
 ```
 npm install
 ```
