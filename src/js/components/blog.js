@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router';
+import BlogPost from '../elements/blogPost';
 
 export default class Blog extends Component {
   constructor(props) {
@@ -15,18 +16,24 @@ export default class Blog extends Component {
       ` aute irure dolor in reprehenderit in voluptate velit esse cillum` +
       ` dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat` +
       ` non proident, sunt in culpa qui officia deserunt mollit anim id` +
-      ` est laborum.`
+      ` est laborum.\n\n` +
+      `Lorem ipsum dolor sit amet, consectetur adipiscing` +
+      ` elit, sed do eiusmod tempor incididunt ut labore et dolore magna` +
+      ` aliqua. Ut enim ad minim veniam, quis nostrud exercitation` +
+      ` ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis` +
+      ` aute irure dolor in reprehenderit in voluptate velit esse cillum` +
+      ` dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat` +
+      ` non proident, sunt in culpa qui officia deserunt mollit anim id` +
+      ` est laborum.`;
 
     return (
       <div>
-        <div className="post">
-          <h3>Example blog post </h3>
-          <p>{fillerText}</p>
-        </div>
-        <div className="post">
-          <h3>Example blog post </h3>
-          <p>{fillerText}</p>
-        </div>
+        <BlogPost
+          title='Example blog post'
+          text={fillerText}/>
+        <BlogPost
+          title='Example blog post'
+          text={fillerText}/>
       </div>
     );
   } 

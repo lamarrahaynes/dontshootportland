@@ -8,7 +8,7 @@ module.exports = {
   ],
   output: {
     path: __dirname + '/public/',
-    filename: 'js/[name].js',
+    filename: 'js/index.js',
     publicPath: '/'
   },
   module: {

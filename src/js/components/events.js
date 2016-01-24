@@ -22,7 +22,7 @@ export default class UpcomingEvents extends Component {
         <div className="event">
           <h3>Event title </h3>
           <img src='https://scontent-sea1-1.xx.fbcdn.net/hphotos-xlt1/t31.0-8/12314693_1682324985387978_4609122362248191423_o.jpg'/>
-          <p>{fillerText}</p>
+          <span>{fillerText}</span>
         </div>
       </div>
     );

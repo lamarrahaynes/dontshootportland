@@ -26,11 +26,22 @@ nav .topLinks {
   height: 1.5em;
   background: #fff;
   padding-left: 50px;
+  height: 30px;
 }
 
 nav .topLinks .link {
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
+  height: 100%;
+  padding: 0 5px;
+}
+
+nav .topLinks .link.highlighted {
+  background: #eee;
+}
+
+nav .topLinks .link.highlighted a {
+  color: #c33;
 }
 
 nav .topLinks .link.first {
@@ -40,6 +51,7 @@ nav .topLinks .link.first {
 nav .topLinks .link a {
   color: #ccc;
   font-size: 20px;
+  line-height: 30px;
 }
 
 nav .horizontalLine {
@@ -84,4 +96,12 @@ img.mainImage {
 
 .event img {
   width: 40%;
+  float: left;
+}
+
+button.show-hide {
+  background: transparent;
+  border: none;
+  color: #888;
+  font-size: 16px;
 }
